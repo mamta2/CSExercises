@@ -10,7 +10,10 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            Console.WriteLine("Enter a number:");
+            Double x = Double.Parse(Console.ReadLine());
+            Console.WriteLine("Squre of " + x + " is " + x * x);
+            Console.ReadLine();   
         }
     }
 }

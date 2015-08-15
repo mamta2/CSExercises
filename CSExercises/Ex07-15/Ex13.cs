@@ -10,7 +10,11 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            Double d;
+            Console.WriteLine("Enter Distance Covered:");
+            d = Double.Parse(Console.ReadLine());
+            Console.WriteLine("total fare of {0} kilometers is  ${1:.##} ", d, Math.Round(2.40 + d * 0.40));
+            Console.ReadLine();   
         }
     }
 }

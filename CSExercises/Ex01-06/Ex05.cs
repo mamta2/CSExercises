@@ -10,7 +10,14 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            Double x;
+            Double y;
+            Console.WriteLine("Enter a double precision number:");
+            x = Double.Parse(Console.ReadLine());
+            y = Math.Sqrt(x);
+            Console.WriteLine("Squre root of " + x + " is {1:####.###}", x, y);
+            Console.ReadLine();
+               
         }
     }
 }
